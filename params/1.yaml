@@ -1,0 +1,51 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  adaptive_high_threshold: 255
+  adaptive_low_threshold: 18
+  blur_kernel_size: 5
+  enable_adaptive_beam_denoising: true
+  enable_blur: false
+  enable_gamma_correction: true
+  enable_morphological_operations: false
+  enable_warping: false
+  gamma: 0.62
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      adaptive_high_threshold: 255
+      adaptive_low_threshold: 18
+      blur_kernel_size: 5
+      enable_adaptive_beam_denoising: true
+      enable_blur: false
+      enable_gamma_correction: true
+      enable_morphological_operations: false
+      enable_warping: false
+      gamma: 0.62
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      latch_max_size: 1.3
+      latch_min_size: 0.1
+      max_pixel_num: 100
+      min_threshold_offset: -16
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      target_max_size: 2.6
+      target_min_size: 0.8
+      threshold_max: 240
+      threshold_min: 30
+      type: ''
+      warping_mixing_factor: 0.85
+    state: []
+  latch_max_size: 1.3
+  latch_min_size: 0.1
+  max_pixel_num: 100
+  min_threshold_offset: -16
+  target_max_size: 2.6
+  target_min_size: 0.8
+  threshold_max: 240
+  threshold_min: 30
+  warping_mixing_factor: 0.85
+state: []

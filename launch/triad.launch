@@ -1,0 +1,11 @@
+<launch>
+
+  <include file="$(find fls_detection)/launch/fusion.launch"/>
+
+  <include file="$(find octomap_server)/launch/octomap_mapping.launch"/>
+
+  <include file="$(find pcl_ros)/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch">
+    <arg name="gui" value="false"/>
+  </include>
+
+</launch>

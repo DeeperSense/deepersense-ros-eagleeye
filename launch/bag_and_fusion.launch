@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="robot_name" default="sparus2"/>
+
+
+    <group ns="$(arg robot_name)">
+<!-- <param name="use_sim_time" value="true"/> -->
+	<node pkg="fls_detection" type="fls_flc_fusion_oculus_image_mask.py" name="fusion_node" output="screen" >
+
+	</node>	
+    </group>
+
+	<include file="$(find pcl_ros)/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch" output="log"> 
+
+<!-- /home/ygutnik/catkin_ws/src/mounted/perception_pcl/pcl_ros/samples/pcl_ros/filters -->
+    </include>
+
+    <include file="$(find cola2_sparus2)/launch/sparus_bag.launch">
+    </include>
+
+    <include file="$(find sparus_path_planner)/launch/plane.launch">
+    </include>
+
+
+</launch>
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="robot_name" default="sparus2"/>
+
+<!-- <param name="/use_sim_time" value="true"/> -->
+
+    <group ns="$(arg robot_name)">
+
+	<node pkg="fls_detection" type="fls_flc_fusion_oculus_image_mask.py" name="fusion_node" output="screen" >
+
+	</node>	
+    </group>
+</launch>
+
+
+

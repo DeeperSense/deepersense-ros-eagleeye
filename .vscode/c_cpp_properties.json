@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ygutnik/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/aruco_ros/aruco/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/aruco_ros/aruco_ros/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/battery_control_board/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/cola2_core/cola2_comms/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/cola2_core/cola2_control/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/cola2_lib_ros/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/cola2_core/cola2_nav/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/cola2_core/cola2_safety/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/dock_detect_flc/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/docking_station/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/iir_ros/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/emus_bms/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/iir_filters/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/imagenex_852_echosounder/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/iqua_t350_thrusters/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/nmea_gps/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/octomap_msgs/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/octomap_ros/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/octomap_mapping/octomap_server/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/sparus_path_planner/include/**",
+        "/home/ygutnik/catkin_ws/src/docker/stonefish_ros/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/teledyne_m900_fls/include/**",
+        "/home/ygutnik/catkin_ws/src/mounted/teledyne_rdi_dvl/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

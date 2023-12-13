@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="robot_name" default="sparus2"/>
+	<!--param name ="/use_sim_time" value="true"/-->
+
+    <!-- Static transform -->
+    <!--node name="world2ned" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 3.1415 world world_ned 100"-->
+  <group ns="$(arg robot_name)">
+ 	<!--param name ="/use_sim_time" value="true">
+	</param-->
+	  <node pkg="fls_detection" type="stonefishFLS.py" name="stonefishFLS" output="screen" />
+   	<node pkg="fls_detection" type="fls_detection_node.py" name="fls_detection" output="screen" >
+	  </node>	
+  </group>
+</launch>

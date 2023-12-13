@@ -1,0 +1,6 @@
+# 1 == true; 0 == false (publish preprocessed fls imges)
+publish_orig_fls_img : 0
+
+# 1 == true; 0 == false (publish processed fls imges)
+publish_processed_fls_img : 1
+
